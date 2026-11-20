@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: flits
-  version: "1.7.1"
+  version: "1.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 9335799b9860fbc10d0b470153ec8c2e114d87555cb6c7cea992dce611131314
+  sha256: b1b45e8825fc8d8dd129fc56597faeac1f0c70fd4a9100230e989ef8edef7858
 
 build:
   number: 0
